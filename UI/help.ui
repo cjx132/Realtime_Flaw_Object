@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>help</class>
+ <widget class="QMainWindow" name="help">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>899</width>
+    <height>696</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>用户手册</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>Icons/help.png</normaloff>Icons/help.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="leftMargin">
+     <number>32</number>
+    </property>
+    <property name="topMargin">
+     <number>16</number>
+    </property>
+    <property name="rightMargin">
+     <number>32</number>
+    </property>
+    <property name="bottomMargin">
+     <number>16</number>
+    </property>
+    <item>
+     <widget class="QTextBrowser" name="textBrowser">
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:20pt; color:#ff0000;&quot;&gt;注意：请将待检测文件放置在在非中文路径中。&lt;/span&gt;&lt;span style=&quot; font-size:20pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:20pt;&quot;&gt;1.实时拍摄视频检测功能使用说明： &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:20pt;&quot;&gt;点击下方“设置摄像头A“，“设置摄像头B“，“设置摄像头C“可分别设置不同摄像头信息。按照摄像头默认设置（不再添加修改任何信息）可直接调用本机摄像头检测。设置完毕，点击“确定设置”后即可“退出”。之后点击“开始检测”按钮即可将检测信息在主界面右侧实时显示。点击“停止检测”即可停止本次实时视频录制与检测。 &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:20pt;&quot;&gt;2.本地图片及视频检测功能使用说明： &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:20pt;&quot;&gt;点击“文件检测”按钮即可进行本地文件检测与显示。进入该功能模块后请首先选择本机文件，之后进行检测。点击“识别”按钮可将本次文件（图片或视频）识别结果实时显示在右侧表格中。（请注意滑动滚动条查看本次识别瑕疵详细信息）。 &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:20pt;&quot;&gt;3.数据统计功能使用说明： &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:20pt;&quot;&gt;点击“数据统计”按钮即可进入该功能模块。可实现本次系统识别结果实时统计与全部信息EXCEL下载。进入功能模块后点击“开始统计”可将瑕疵统计信息显示在左侧表格中，点击“存储详细报表”即可下载EXCEL表格查看各种瑕疵详细信息。 &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:20pt;&quot;&gt;4.参数设置使用说明：&lt;br /&gt;点击“参数设置”按钮进入设置界面，即可设置系统对视频及图片的长度，宽度要求。只有所识别图片或视频大于设置中的长和宽，系统才可检测。视频流速设置视频的播放及检测速度。系统默认采用yolo模型，可不用修改。后期有待选择其他模型进一步提高系统识别准确率。设置完毕，点击“确定设置”后即可“退出”。 &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
