@@ -4,7 +4,7 @@ Pillow
 cython
 matplotlib
 scikit-image
-tensorflow==1.9.0
+tensorflow==1.15.4
 keras==2.2.4
 opencv-python
 imageio
